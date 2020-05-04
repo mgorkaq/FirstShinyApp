@@ -1,0 +1,66 @@
+---
+title: "AIDs in Australia"
+author: "Marie Gorka"
+date: "May, 2020"
+output:
+  ioslides_presentation: default
+---
+
+## Description
+
+The Shiny Application displays AIDs in Australia:
+
+- for some States of Australia
+- by transmission type
+
+For the states : "NSW "includes ACT and "other" is WA, SA, NT and TAS.
+
+The data are accesible in the package MASS of R.
+
+
+## How to play with the Shiny app
+
+The Shniy app let's user select the state and select the type of transmission of the disease.
+
+Multiple states and types of tranmission can be selected.
+
+The final graph is a ggplot for the type of transmission by state according to the age.
+
+
+## Shiny App Location
+
+The Shiny App can be found at the folowwing adress : 
+https://mgorka.shinyapps.io/MyFirstShinyApp/
+
+Once you have clicked on the link you directly access the app and you can play with it.
+
+If you wish to download it, you can go here :
+https://github.com/mgorkaq/FirstShinyApp/tree/master/myfirstshinyapp
+
+
+## Dataset content
+
+Here are the first lines of the file used for the app:
+
+```{r echo=TRUE}
+library(MASS)
+data <- Aids2
+head(data)
+```
+
+
+## Lessons learned
+
+- How to create my first Shiny App
+- It is completly different than coding in R directly. It is like a new language
+- It is necessary to use reactive function as soon as we have 2 inputs or more
+- Usage of uplots in the Shiny environnement
+
+
+## Conclusion
+
+- I feel more confortable with R
+- Shiny allow us to create quickly nice application but it needs to take some time to 
+  understand how to build it
+- Developping more complex application needs to spend a lot of time to understand all the
+  functionalities offered by Shiny as well as how to code it
