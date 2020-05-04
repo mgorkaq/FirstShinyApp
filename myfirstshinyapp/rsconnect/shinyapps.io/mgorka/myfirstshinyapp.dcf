@@ -1,0 +1,12 @@
+name: MyFirstShinyApp
+title: MyFirstShinyApp
+username:
+account: mgorka
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2237552
+bundleId: 3100331
+url: https://mgorka.shinyapps.io/MyFirstShinyApp/
+when: 1588585427.41218
+asMultiple: FALSE
+asStatic: FALSE
